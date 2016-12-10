@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIDatePicker *datepicker;
+
+@property (strong, nonatomic) IBOutlet UIImageView *imageview;
+
+- (IBAction)downloadimage:(id)sender;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityindic;
+
 
 @end
 
